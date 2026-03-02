@@ -18,8 +18,7 @@ def get_recommendations(genres_input="", min_score=8.0):
     params = {
         "order_by": "score",
         "sort": "desc",
-        "min_score": min_score,
-        "sfw": True
+        "min_score": min_score
     }
     
     if genres_input:
