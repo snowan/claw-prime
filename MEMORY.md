@@ -10,6 +10,7 @@ This is my long-term memory. It contains curated information about my human, my 
 
 ## Active Projects
 - **Super-Intelligent Assistant:** Building a system to automate the path to a $10k/month revenue goal.
+- **Michi Brand (Manga Cat):** Developing an XHS/TikTok brand around Michi the cat. Tracked in `projects/michi-brand` and synchronized with `snowan/claw-prime` GitHub repo.
 
 ## Lessons Learned & Key Decisions
 - [TBD]
