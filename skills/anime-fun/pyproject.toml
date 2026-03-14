@@ -1,0 +1,6 @@
+[project]
+name = "anime-fun"
+version = "0.1.0"
+description = "OpenClaw skill: anime-fun"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31.0"]

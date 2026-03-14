@@ -1,0 +1,6 @@
+[project]
+name = "viking-context"
+version = "0.1.0"
+description = "OpenClaw skill: viking-context"
+requires-python = ">=3.10"
+dependencies = []

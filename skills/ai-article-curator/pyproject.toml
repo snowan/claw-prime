@@ -1,0 +1,6 @@
+[project]
+name = "ai-article-curator"
+version = "0.1.0"
+description = "OpenClaw skill: ai-article-curator"
+requires-python = ">=3.10"
+dependencies = []
