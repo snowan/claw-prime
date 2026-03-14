@@ -1,0 +1,27 @@
+name: Engine CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  python-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v2
+      - name: Run Ruff Linter
+        run: uvx ruff check .
+
+  markdown-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Local Links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline '**/*.md'
+          fail: true
