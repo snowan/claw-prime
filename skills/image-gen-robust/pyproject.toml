@@ -1,0 +1,6 @@
+[project]
+name = "image-gen-robust"
+version = "0.1.0"
+description = "OpenClaw skill: image-gen-robust"
+requires-python = ">=3.10"
+dependencies = []
