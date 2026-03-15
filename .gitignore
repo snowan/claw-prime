@@ -10,3 +10,5 @@ TOOLS.md
 .openclaw/
 *.abstract
 *.overview
+MEMORY.md
+.clawhub/
