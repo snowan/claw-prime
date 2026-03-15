@@ -3,4 +3,8 @@ name = "orchestrator"
 version = "0.1.0"
 description = "OpenClaw skill: orchestrator"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
