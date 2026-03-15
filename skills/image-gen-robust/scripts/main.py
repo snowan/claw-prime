@@ -1,4 +1,3 @@
-import os
 import subprocess
 import sys
 import argparse
@@ -22,8 +21,10 @@ def main():
     result = run_command(cmd)
     
     # LOG OUTPUT FOR DEBUGGING
-    if result.stdout: print(f"STDOUT: {result.stdout}")
-    if result.stderr: print(f"STDERR: {result.stderr}")
+    if result.stdout:
+        print(f"STDOUT: {result.stdout}")
+    if result.stderr:
+        print(f"STDERR: {result.stderr}")
     
     if result.returncode == 0:
         print("✅ Success with baoyu-image-gen")

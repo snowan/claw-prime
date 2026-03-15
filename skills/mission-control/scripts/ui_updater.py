@@ -1,5 +1,4 @@
 import os
-import json
 from datetime import datetime
 
 UI_PATH = "/Users/xiaowei.wan/clawd/skills/mission-control/ui.html"

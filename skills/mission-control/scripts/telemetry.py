@@ -20,8 +20,8 @@ def update_status(nodes, efficiency):
 
 def report():
     s = get_status()
-    print(f"🛰️ MISSION CONTROL STATUS")
-    print(f"--------------------------")
+    print("🛰️ MISSION CONTROL STATUS")
+    print("--------------------------")
     print(f"Goal: ${s['revenue']} / ${s['target']}")
     print(f"Efficiency: {s['efficiency']*100:.1f}%")
     print(f"Active Context: {', '.join(s['last_nodes'])}")

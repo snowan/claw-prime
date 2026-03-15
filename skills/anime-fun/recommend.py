@@ -44,7 +44,7 @@ def get_recommendations(genres_input="", min_score=8.0):
         sample_size = min(len(anime_list), 5)
         recommendations = random.sample(anime_list[:15], sample_size)
         
-        print(f"\n✨ My Top Recommendations for You:\n")
+        print("\n✨ My Top Recommendations for You:\n")
         for anime in recommendations:
             title = anime['title_english'] or anime['title']
             score = anime['score']

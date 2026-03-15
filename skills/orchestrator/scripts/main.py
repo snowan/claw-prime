@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 
 GRAPH_PATH = "/Users/xiaowei.wan/clawd/memory/skill-graph.json"
@@ -27,13 +26,13 @@ def run_pipeline(name, input_val, target=None):
     log_action(name, input_val, nodes)
 
 def log_action(pipeline, input_val, nodes):
-    log_entry = {
+    return {
         "pipeline": pipeline,
         "input": input_val,
         "nodes": nodes,
         "status": "initialized"
     }
-    print(f"✅ Workflow graph validated. Ready for execution.")
+    print("✅ Workflow graph validated. Ready for execution.")
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:

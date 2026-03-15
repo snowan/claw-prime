@@ -1,6 +1,5 @@
 import requests
 import sys
-import os
 
 # Helper to get Chinese titles for popular series
 # Since Jikan doesn't provide them, we map them manually for top hits

@@ -1,5 +1,4 @@
 import requests
-import sys
 
 def get_anime_drop():
     try:
