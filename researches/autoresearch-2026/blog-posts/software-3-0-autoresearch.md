@@ -8,11 +8,17 @@ If you are still writing Python syntax by hand, you are the bottleneck.
 
 ## The Paradigm Shift
 
+![The Software Evolution](illustrations/01-infographic-software-evolution.png)
+
+
 *   **Software 1.0:** Humans write logic (C++, Python).
 *   **Software 2.0:** Humans write neural net architectures and loss functions; computers find the weights (Deep Learning).
 *   **Software 3.0 (Autoresearch):** Humans write the *goal* in plain English; AI agents write the architecture, the loss function, and the code, while computers find the weights.
 
 ## The Mechanics of an Autonomous Lab
+
+![The Autoresearch Evolutionary Loop](illustrations/02-infographic-autoresearch-loop.png)
+
 
 Karpathy provided a barebones LLM training setup with a ruthless evolutionary loop. The architecture relies on exactly three files:
 
@@ -26,6 +32,9 @@ The 5-minute wall-clock constraint is genius. It prevents the agent from cheatin
 
 ## Beyond LLMs: The Universal Optimization Loop
 
+![The Universal Optimization Engine](illustrations/03-infographic-universal-optimization-loop.png)
+
+
 Strip away the LLM training aspect, and `autoresearch` is simply a **Universal Optimization Loop for Code**. The industry is already weaponizing this across domains:
 
 *   **Algorithmic Trading:** Instead of an ML architecture, the agent mutates a Python trading strategy. The metric is the Sharpe ratio over a 5-year historical backtest. It discovers weird, unintuitive alpha overnight.
@@ -33,6 +42,9 @@ Strip away the LLM training aspect, and `autoresearch` is simply a **Universal O
 *   **Unbreakable QA:** When a web scraper breaks due to a UI update, an autoresearch loop pulls the new DOM, mutates the CSS selectors, runs the test, and commits the fix before the human on-call even wakes up.
 
 ## Goodhart's Law is the Final Boss
+
+![Goodhart's Law and Metric Gaming](illustrations/04-infographic-goodharts-law.png)
+
 
 *When a measure becomes a target, it ceases to be a good measure.*
 
